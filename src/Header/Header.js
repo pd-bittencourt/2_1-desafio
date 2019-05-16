@@ -1,15 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-// import { Container } from './styles';
-const divStyle = {
-  backgroundColor: 'gray',
-};
+import './styles.css';
 
 export default function Header({ title }) {
   return (
-    <div style={divStyle}>
-      <h2>{title}</h2>
+    <div className="header-wrapper">
+      <h2 className="header-title">{title}</h2>
     </div>
   );
 }
