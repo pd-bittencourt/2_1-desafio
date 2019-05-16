@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
 import './App.css';
 
 import Header from './Header/Header';
@@ -49,4 +48,4 @@ class App extends Component {
   }
 }
 
-render(<App />, document.getElementById('app'));
+export default App;

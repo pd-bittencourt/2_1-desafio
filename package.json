@@ -2,7 +2,7 @@
   "name": "2_1-desafio",
   "version": "1.0.0",
   "description": "",
-  "main": "App.js",
+  "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --node development"
   },
