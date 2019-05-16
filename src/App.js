@@ -37,14 +37,12 @@ class App extends Component {
   };
 
   render() {
-    const { appTitle } = this.state;
+    const { appTitle, posts } = this.state;
     return (
       <>
         <Header title={appTitle} />
         <div className="posts-wrapper">
-          <Post />
-          <Post />
-          <Post />
+          {posts && posts.map(post => <Post key={post.id} data={post} />)}
         </div>
       </>
     );
